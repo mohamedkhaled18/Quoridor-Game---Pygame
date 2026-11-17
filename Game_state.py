@@ -17,16 +17,14 @@ class GameState:
 
     def is_wall_valid(self, orientation, row, col):
         """هل الحائط ده قانوني؟ (مش متقاطع، ومش بيقفل الطريق)"""
-        ...
+
 
     def place_wall(self, orientation, row, col):
         """تحط حائط وتقلل العداد."""
-        ...
 
     def has_won(self, player):
         """هل اللاعب وصل للصف اللي عايزه؟"""
-        ...
 
     def clone(self):
         """نسخة جديدة من الحالة (للـ AI)."""
-        ...
+        
